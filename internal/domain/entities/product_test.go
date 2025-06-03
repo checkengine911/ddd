@@ -26,3 +26,4 @@ func TestNewProduct(t *testing.T) {
 		t.Error("Expected product Id to be set, but got zero value")
 	}
 }
+//for 
