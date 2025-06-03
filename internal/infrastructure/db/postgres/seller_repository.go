@@ -6,7 +6,7 @@ import (
 	"github.com/sklinkert/go-ddd/internal/domain/repositories"
 	"gorm.io/gorm"
 )
-
+//wuth gorm
 type GormSellerRepository struct {
 	db *gorm.DB
 }
