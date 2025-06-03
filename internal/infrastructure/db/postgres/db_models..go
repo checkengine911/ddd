@@ -5,6 +5,7 @@ import (
 	"time"
 )
 
+//of product
 type Product struct {
 	Id        uuid.UUID `gorm:"primaryKey"`
 	Name      string
