@@ -71,3 +71,4 @@ func (m *MockSellerService) DeleteSeller(id uuid.UUID) error {
 	}
 	return errors.New("seller not found")
 }
+///
