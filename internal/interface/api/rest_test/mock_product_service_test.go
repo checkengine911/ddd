@@ -69,3 +69,5 @@ func (m *MockProductService) FindProductById(id uuid.UUID) (*query.ProductQueryR
 
 	return productQueryResult, args.Error(1)
 }
+
+//wrr
